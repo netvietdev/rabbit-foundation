@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Net.HtmlAgilityPack"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Net.HtmlAgilityPack.Tests", "Integrations\Rabbit.Net.HtmlAgilityPack.Tests\Rabbit.Net.HtmlAgilityPack.Tests.csproj", "{1B51F4DA-BBA6-46A6-B18B-C0E859051178}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.CookieThreadCulture", "Samples\Samples.CookieThreadCulture\Samples.CookieThreadCulture.csproj", "{26B311DB-D915-4F82-9838-B9F2AD64237A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,12 +68,17 @@ Global
 		{1B51F4DA-BBA6-46A6-B18B-C0E859051178}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B51F4DA-BBA6-46A6-B18B-C0E859051178}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B51F4DA-BBA6-46A6-B18B-C0E859051178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B311DB-D915-4F82-9838-B9F2AD64237A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B311DB-D915-4F82-9838-B9F2AD64237A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B311DB-D915-4F82-9838-B9F2AD64237A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B311DB-D915-4F82-9838-B9F2AD64237A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A3D69928-4AC5-4C7F-8AB3-C16508EAA9C2} = {B77B90E8-2519-4AB4-BE1C-B094859FEA5D}
+		{26B311DB-D915-4F82-9838-B9F2AD64237A} = {B77B90E8-2519-4AB4-BE1C-B094859FEA5D}
 		{0451BAEF-DF2E-4B98-8644-94EE9415E389} = {64731EDD-A71D-4B26-A1E4-7E775EEDB58B}
 		{883D5E9E-B172-4DF2-A69D-02B2806E1A70} = {64731EDD-A71D-4B26-A1E4-7E775EEDB58B}
 	EndGlobalSection
