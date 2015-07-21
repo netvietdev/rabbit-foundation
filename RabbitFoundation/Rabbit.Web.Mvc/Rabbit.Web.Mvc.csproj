@@ -32,8 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Filters\CompressionFilterAttribute.cs" />
     <Compile Include="Filters\ExceptionFilterAttributeBase.cs" />
     <Compile Include="Filters\GlobalFilterCollectionExtensions.cs" />
+    <Compile Include="Filters\NoCacheAttribute.cs" />
     <Compile Include="Filters\Validators\DefaultExceptionFilterValidator.cs" />
     <Compile Include="Filters\Validators\IExceptionFilterValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -44,6 +46,7 @@
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
